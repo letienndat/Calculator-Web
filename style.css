@@ -1,0 +1,93 @@
+body, html {
+  font-family: 'Inter Medium';
+  font-size: 26px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.container {
+  background-color: black;
+  width: 300px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_1 {
+  width: 100%;
+  height: 220px;
+  font-size: 45px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.content_2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 5px 20px 15px 20px;
+  user-select:text;
+}
+
+.operator {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+.operator .line {
+  width: 100%;
+  height: 105px;
+  display: flex;
+  flex-direction: row;
+}
+
+.operator .line .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.operator .line .button_number0 {
+  width: 70px;
+  border-radius: 50% 0% 0% 50%;
+  margin: 5px 0px 5px 5px;
+}
+
+.operator .line .button_null {
+  width: 70px;
+  border-radius: 0% 50% 50% 0%;
+  margin: 5px 5px 5px 0px;
+}
+
+.button_light_gray {
+  background-color: #D4D4D2;
+  color: black;
+}
+
+.button_light_gray:active {
+  background-color: #d4d4d2af;
+}
+
+.button_vivid_amboge {
+  background-color: #FF9500;
+}
+
+/* .button_vivid_amboge:active {
+  background-color: #ff9500a9;
+} */
+
+.button_dark_liver {
+  background-color: #505050;
+}
+
+.button_dark_liver:active {
+  background-color: #5050509f;
+}
